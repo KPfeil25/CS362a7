@@ -1,2 +1,3 @@
 def leapyear(num):
-    pass
+    if num % 400 == 0:
+        return True
